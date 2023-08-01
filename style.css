@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+nav {
+    padding-left: 24px;
+    padding-right: 16px;
+    height: 64px;
+    max-width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 32px;
+    width: auto;
+}
+
+#logo strong {
+    color: black;
+}
+
+#logo p {
+    color: gray;
+}
+
+#nav-links {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    color: slategray;
+}
+
+#nav-links li {
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#learn-something {
+    background-color: lightgray;
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+
+}
+
+#learn-something img {
+    padding: 32px 24px;
+    width: 60%;
+    height: auto;
+}
+
+#learn-something-text {
+    color: #3d3d3d;
+    padding-right: 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+#learn-something-text h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 24px 0;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+#learn-something-text p {
+    font-size: 1.125rem;
+    font-weight: 550;
+    margin: 0;
+    line-height: 150%;
+}
+
+#learn-something-text button {
+    margin: 24px 0;
+    padding: 8px 0;
+    background-color: #3d3d3d;
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
+    width: 80%;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+}
