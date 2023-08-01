@@ -43,7 +43,7 @@ nav {
     flex-direction: row;
     align-items: center;
     list-style-type: none;
-    color: slategray;
+    color: #3d3d3d;
 }
 
 #nav-links li {
@@ -77,12 +77,16 @@ nav {
     justify-content: center;
 }
 
-#learn-something-text h1 {
-    font-size: 2rem;
-    margin: 0;
-    padding: 24px 0;
+.header {
     font-weight: 900;
     line-height: 120%;
+    font-size: 2rem;
+    margin: 0;
+    color: #3d3d3d;
+}
+
+#learn-something-text h1 {
+    padding: 24px 0;
 }
 
 #learn-something-text p {
@@ -103,4 +107,34 @@ nav {
     border: 0;
     box-shadow: none;
     border-radius: 0;
+}
+
+#kp-text {
+    width: 60%;
+    height:auto;
+}
+
+#keep-practicing img {
+    width: 60%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+#kp-text h1 {
+    padding: 0 24px;
+}
+
+#kp-text h3 {
+    font-weight: normal;
+    line-height: 150%;
+    font-size: .95rem;
+    padding: 24px;
+    color: #3d3d3d
+}
+
+#kp-text p {
+    color: black;
+    font-size: .85rem;
+    padding-left: 24px;
+    padding-bottom: 32px;
 }
