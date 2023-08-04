@@ -151,7 +151,7 @@ nav {
 
 .event-card {
     display: flex;
-    border-left: 1px solid gray;
+    border-left: 1px solid lightgray;
     border-bottom: 3px solid lightgray;
 }
 
@@ -187,9 +187,56 @@ nav {
 }
 
 .read-more {
-    color: skyblue;
+    color: royalblue;
 }
 
 #guest-lecture {
     background-color: lightgray;
+}
+
+.start-learning {
+    padding: 32px 56px;
+    background-color: #dbdbdb;
+}
+
+.start-learning h1 {
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-basis: 33.33%;
+    height: auto;
+    margin: 16px;
+}
+
+.course-card h3 {
+    font-size: 1.25rem;
+    padding: 16px 16px 4px 16px;
+    margin: 0;
+    border: 0;
+}
+
+.course-card p {
+    color: #a3a2a2;
+}
+
+.course-heading {
+    padding: 4px 16px;
+    margin: 0;
+    border: 0;
+}
+
+.course-description {
+    padding: 4px 16px 24px 16px;
+    margin: 0;
+    border: 0;
 }
