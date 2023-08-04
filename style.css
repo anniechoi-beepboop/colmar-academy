@@ -213,9 +213,11 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: white;
-    flex-basis: 33.33%;
+    width: 100px;
+    flex-basis: 26%;
     height: auto;
     margin: 16px;
+    flex-grow: 1;
 }
 
 .course-card h3 {
